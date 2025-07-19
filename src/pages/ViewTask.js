@@ -25,10 +25,10 @@ const ViewTask = () => {
     return(
         <div className='container'>
             <h3>Task Details</h3>
-            <p><strong>Title</strong>{task.title}</p>
-            <p><strong>Description</strong>{task.description}</p>
-            <p><strong>Status</strong>{task.status}</p>
-            <p><strong>Due Date</strong>{task.dueDate}</p>
+            <p><strong>Title  </strong>{task.title}</p>
+            <p><strong>Description  </strong>{task.description}</p>
+            <p><strong>Status  </strong>{task.status}</p>
+            <p><strong>Due Date  </strong>{task.dueDate}</p>
             <Link to="/">Back to task List </Link>
 
         </div>
