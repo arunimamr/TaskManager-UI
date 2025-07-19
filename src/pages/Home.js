@@ -13,7 +13,6 @@ import { Link } from 'react-router-dom';
 
     useEffect(() => {
         const loadTasks = async () => {
-            console.log("loading tasks...")
             try{                
                 const response = await getAllTasks(status, pageNum, pageSize);
                 setTasks(response.data.content || []);                
